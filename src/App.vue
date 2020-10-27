@@ -1,17 +1,24 @@
 <template>
   <div id="app">
     <Header />
-    <router-view /> <!--its a component of vue-router package -->
+    <router-view />
   </div>
 </template>
 
 <script>
-import Header from './components/Header.vue';
+import Header from "./components/Header.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
     Header,
-  }
-}
+  },
+  data() {
+    return {
+    };
+  },
+  methods: {
+    
+  },
+};
 </script>
