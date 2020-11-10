@@ -15,10 +15,12 @@ export default {
   },
   data() {
     return {
+      test: "hello world",
     };
   },
-  methods: {
-    
-  },
+  methods: {},
 };
 </script>
+<style lang="scss">
+@import "./assets/sass/main.scss";
+</style>
